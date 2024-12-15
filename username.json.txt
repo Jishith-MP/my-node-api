@@ -1,0 +1,11 @@
+{
+    "required": true,
+    "minLength": 3,
+    "maxLength": 20,
+    "pattern": "^[A-Za-z]+$",
+    "messages": {
+      "required": "Username is required.",
+      "minLength": "Username must be at least 3 characters.",
+      "maxLength": "Username cannot exceed 20 characters."
+    }
+  }
